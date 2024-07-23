@@ -1,0 +1,238 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+.cv-document {
+  box-sizing: border-box;
+  border: none;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: arial, sans-serif, tahoma;
+  font-size: 10pt;
+}
+
+.cv-page {
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+  width: 900px;
+  min-height: 900px;
+  margin: 0 auto;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  position: relative;
+
+  padding: 40px;
+}
+.section {
+  display: block;
+  margin: 0 40px 40px;
+}
+/* thuộc tính h2 */
+.section-title {
+  text-transform: uppercase;
+  font-weight: 600;
+  border-bottom: solid;
+}
+/* Set thẻ h1 name */
+.h1-name {
+  color: #0e2452;
+  font-size: 32px;
+  margin: 0;
+}
+/* căn chỉnh phần thông tin */
+#info {
+  position: relative;
+  width: 91%;
+  /* background-color: rgba(176, 176, 84, 0.385); */
+  display: inline-block;
+  margin: 40px;
+}
+.infomation {
+  /* background-color: rgb(194, 233, 233); */
+  width: 85%;
+  height: 100%;
+  position: absolute;
+  left: -40px;
+}
+.info-ofme {
+  font-size: 18px;
+  display: inline-block;
+  text-align: left;
+  margin-left: 1px;
+  line-height: 10px;
+}
+.image {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin: 4px;
+}
+.info1 {
+  display: inline-block;
+}
+.info2 {
+  position: absolute;
+  left: 200px;
+}
+/* set thẻ p của mục tiêu nghề nghiệp */
+.target-job {
+  font-size: 15px;
+}
+#education {
+  position: relative;
+}
+/* căn chỉnh các thuộc tính của phần học vấn */
+.timehv {
+  height: 87px;
+  width: 30%;
+  float: left;
+  border-bottom: 1px ridge;
+}
+.hv {
+  float: left;
+  height: 87px;
+  width: 70%;
+  border-bottom: 1px ridge;
+}
+/* căn chỉnh các thuộc tính của phần kinh nghiệm làm việc */
+.time-exp1 {
+  float: left;
+  height: 131px;
+  width: 30%;
+  border-bottom: 1px ridge;
+}
+.exp1 {
+  height: 131px;
+  width: 70%;
+  float: left;
+  border-bottom: 1px ridge;
+}
+.time-exp2 {
+  float: left;
+  height: 150px;
+  width: 30%;
+  border-bottom: 1px ridge;
+}
+.exp2 {
+  height: 150px;
+  width: 70%;
+  float: left;
+  border-bottom: 1px ridge;
+}
+ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+/* căn chỉnh các thuộc tính của phần hoạt động */
+.timehd {
+  height: 90px;
+  width: 30%;
+  float: left;
+  border-bottom: 1px ridge;
+}
+.hd {
+  height: 90px;
+  width: 70%;
+  float: right;
+  border-bottom: 1px ridge;
+}
+/* căn chỉnh các thuộc tính của phần kỹ năng */
+.language1 {
+  float: left;
+  height: 45px;
+  width: 30%;
+  border-bottom: 1px ridge;
+}
+.lever1 {
+  height: 45px;
+  float: left;
+  width: 70%;
+  border-bottom: 1px ridge;
+}
+.language2 {
+  float: left;
+  height: 67px;
+  width: 30%;
+  border-bottom: 1px ridge;
+}
+.lever2 {
+  height: 67px;
+  float: left;
+  width: 70%;
+  border-bottom: 1px ridge;
+}
+/* căn chỉnh các thuộc tính của phần chứng nhận giải thưởng */
+.timecc {
+  float: left;
+  height: 65px;
+  width: 30%;
+  border-bottom: 1px ridge;
+}
+.cc {
+  height: 65px;
+  width: 70%;
+  float: left;
+  border-bottom: 1px ridge;
+}
+/* đổi màu link */
+a {
+  color: blue;
+  cursor: pointer;
+  font-size: 16px;
+}
+/* căn chỉnh các tiêu đề h2 */
+.section-content {
+  position: relative;
+  margin: 0 40px;
+}
+.section-content ul {
+  padding-left: 25px;
+  font-size: 18px;
+}
+/* tạo timeline */
+.timeline ul li {
+  content: "";
+  position: relative;
+  margin: 0;
+  padding-bottom: 1em;
+  padding-left: 20px;
+  height: 100%;
+}
+.timeline ul::before {
+  content: "";
+  background-color: #c5c5c5;
+  position: absolute;
+  bottom: 0px;
+  top: 0px;
+  left: 11px;
+  width: 1px;
+}
+.timeline ul li::after {
+  content: "";
+  background: black;
+  border: 0.1875em solid black;
+  border-radius: 50%;
+  position: absolute;
+  left: -18px;
+  top: 6px;
+  height: 2px;
+  width: 2px;
+}
+a {
+  text-decoration: none;
+}

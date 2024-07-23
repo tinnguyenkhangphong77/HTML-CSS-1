@@ -1,0 +1,56 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>personal-portfolio.freecodecamp.rocks</title>
+  </head>
+   <body>
+     <section id="welcome-section">
+       <h1>Hey I am Mimic<br>a web developer</h1>
+     </section>
+     <section id="projects">
+       
+       <div class="project-tile">These are some of my projects</div>
+       <a href="https://codepen.io/freeCodeCamp/full/zNqgVx">Tribute Page</a>
+       <a href="https://codepen.io/freeCodeCamp/full/qRZeGZ">Random Quote Machine</a>
+     </section>
+     <nav id="navbar">
+       <a href="#welcome-section">About</a>
+       <a href="#projects">Work</a>
+     </nav>
+     <a id="profile-link" href="https://codepen.io/FreeCodeCamp/" target="_blank">Show all</a>
+   </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+#welcome-section{
+  height:100vh;
+}
+@media screen {
+  body {
+    width: 960px;
+    background-color:white
+  }
+}
+@media handheld {
+  body {
+    width: 320px;
+    background-color:grey
+  }
+}
+#navbar{
+  position: Fixed;
+  top:0;
+ right:10px;
+}
+
+** end of undefined **
+
